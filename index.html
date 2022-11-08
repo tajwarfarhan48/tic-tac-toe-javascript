@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tic Tac Toe</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="heading">Welcome to Tic Tac Toe</h1>
+    <div class="box">
+        <div class="row row-1">
+            <div data-clicked="false" class="r1 c1 d1 br bb sub-box"></div>
+            <div data-clicked="false" class="r1 c2 bl br bb sub-box"></div>
+            <div data-clicked="false" class="r1 c3 d2 bl bb sub-box"></div>
+        </div>
+        <div class="row row-2">
+            <div data-clicked="false" class="r2 c1 bt br bb sub-box"></div>
+            <div data-clicked="false" class="r2 c2 d1 d2 bt bl br bb sub-box"></div>
+            <div data-clicked="false" class="r2 c3 bt bl bb sub-box"></div>
+        </div>
+        <div class="row row-3">
+            <div data-clicked="false" class="r3 c1 d2 bt br sub-box"></div>
+            <div data-clicked="false" class="r3 c2 bt bl br sub-box"></div>
+            <div data-clicked="false" class="r3 c3 d1 bt bl sub-box"></div>
+        </div>
+    </div>
+    <p class="status">Player 1's Turn</p>
+    <div class="container">
+        <button class="restart center">Restart</button>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

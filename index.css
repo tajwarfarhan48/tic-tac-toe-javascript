@@ -1,0 +1,64 @@
+* {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.heading {
+    text-align: center;
+}
+
+.box div {
+    margin: auto;
+    width: 200px;
+    height: 60px;
+}
+
+.row {
+    display: flex;
+}
+
+.sub-box {
+    width: 2vw;
+    height: 2vw;
+
+    color: darkred;
+    font-weight: 800;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt {
+    border-top: 2px solid black;
+}
+
+.bl {
+    border-left: 2px solid black;
+}
+
+.br {
+    border-right: 2px solid black;
+}
+
+.bb {
+    border-bottom: 2px solid black;
+}
+
+.status {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+  }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+  }
